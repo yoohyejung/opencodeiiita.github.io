@@ -405,11 +405,13 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a class="thumb-link" title="Lamp" data-size="1050x700">
+                            <a class="thumb-link" data-size="1050x700">
                                 <img src="images/portfolio/pd1.png" 
                                      srcset="images/portfolio/pd1.png 1x" alt="">
                             </a>
                         </div>
+                        
+                        <!-- <a href="https://google.com">please chal jaa</a> -->
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
@@ -418,9 +420,10 @@
                             <p class="item-folio__cat">
                                 A super cool collection of CSS tasks.
                             </p>
+
                         </div>
 
-                        <a href="https://github.com/opencode18/ProDesigner" target="_blank" class="item-folio__project-link" title="Project link">
+                        <a href="https://github.com/opencode18/ProDesigner" target="_blank" id="chaljaa" class="item-folio__project-link">
                             Project Link
                         </a>
 
@@ -824,6 +827,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        var btn = $("#chaljaa");
+        btn.click(function(){
+            window.open('https://google.com', '_blank');
+        })
+    </script>
 
 </body>
 
