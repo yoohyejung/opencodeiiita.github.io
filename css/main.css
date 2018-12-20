@@ -2939,8 +2939,45 @@ html.no-csstransitions .home-content__main {
   margin-top: 1.8rem;
   position: relative;
 }
+  /* # sponsor
+             */
 
-
+.sponsor-heading h2{
+    margin: 0 0 30px 0;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    color: #00a9fd;
+    text-align: center;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+/* .sponsor-heading h2:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 80px;
+  font-weight: bold;
+  height: 2px;
+  background: #00a9fd;
+  left: 50%;
+  margin-left: -40px;
+  bottom: 0;
+} */
+.sponsors{
+  margin: 0 0 15vw 15vw;
+}
+.sponsor-1{
+  display: inline-block;
+}
+.sponsor-2{
+  width: 12vw;
+  height: 12vw;
+  display: block;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * stats
