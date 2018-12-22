@@ -56,7 +56,7 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-html {
+ html {
   font-size: 10px;
 }
 @media only screen and (max-width: 400px) {
@@ -1231,6 +1231,27 @@ input::-moz-focus-inner {
   margin-top: 0;
   margin-bottom: 4.8rem;
 }
+#goal-head{
+  position: relative;
+}
+#goals-head::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20%;
+  font-weight: bold;
+  height: 4px;
+  background: yellow;
+  /* left: 50%; */
+  /* margin: 0px 0px 0px -25vw; */
+  margin-left: 5%;
+  bottom: 0;
+}
+@media only screen and (max-width: 450px){
+  #goals-head::after{
+    width: 40%;
+  }
+}
 .display-1--light {
   color: #ffffff;
 }
@@ -2220,6 +2241,34 @@ html.no-csstransitions .home-content__main {
   background-color: #ffffff;
   position: relative;
 }
+#about-header::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7vw;
+  font-weight: bold;
+  height: 3px;
+  background: yellow;
+  /* left: 50%;
+  margin-left: -27vw; */
+  margin-left: 4%;
+  bottom: 0;
+}
+@media only screen and (max-width: 10019px){
+  #about-header::after{
+    width: 8vw;
+  }
+}
+@media only screen and (max-width: 750px){
+  #about-header::after{
+    width: 9vw;
+  }
+}
+@media only screen and (max-width: 450px){
+  #about-header::after{
+    width: 17vw;
+  }
+}
 
 
 /* ------------------------------------------------------------------- 
@@ -2462,7 +2511,37 @@ html.no-csstransitions .home-content__main {
   padding: 18rem 0 24rem;
   position: relative;
 }
-
+#work-head{
+  position: relative;
+}
+#works-head::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50%;
+  font-weight: bold;
+  height: 3px;
+  background: yellow;
+  /* left: 50%; */
+  /* margin-left: -3em; */
+  margin-left: 20%; 
+  bottom: 0;
+}
+@media only screen and (max-width: 1118px){
+  #works-head::after{
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-width: 750px){
+  #works-head::after{
+    margin-left: 6%;
+  }
+}
+@media only screen and (max-width: 450px){
+  #works-head::after{
+    margin-left: 11%;
+  }
+}
 
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry
@@ -2721,10 +2800,39 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .testimonials-header {
+  position: relative;
   text-align: center;
   margin-top: 7.2rem;
 }
-
+#testimonials-head::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 9vw;
+  font-weight: bold;
+  height: 3px;
+  background: yellow;
+  left: 50%;
+  margin-left: -5vw;
+  /* margin-bottom: 23%; */
+  bottom: 0;
+}
+@media only screen and (max-width: 10019px){
+  #testimonials-head::before{
+    width: 10vw;
+  }
+}
+@media only screen and (max-width: 750px){
+  #testimonials-head::before{
+    width: 17vw;
+  }
+}
+@media only screen and (max-width: 450px){
+  #testimonials-head::before{
+    width: 30vw;
+    margin-left: -14vw;
+  }
+}
 .testimonials {
   font-size: 1.4rem;
   line-height: 2;
@@ -2949,26 +3057,26 @@ html.no-csstransitions .home-content__main {
     text-transform: uppercase;
     position: relative;
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     line-height: 1.5;
     color: #00a9fd;
     text-align: center;
     font-family: "Source Sans Pro", Arial, sans-serif;
 }
-/* .sponsor-heading h2:after{
+ .sponsor-heading h2:after{
   content: "";
   position: absolute;
   display: block;
-  width: 80px;
+  width: 9vw;
   font-weight: bold;
-  height: 2px;
-  background: #00a9fd;
+  height: 3px;
+  background: yellow;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -4.5vw;
   bottom: 0;
-} */
+}
 .sponsors{
- margin: 0 22vw 10vw 22vw;
+  margin: 0 22vw 10vw 22vw;
 }
 .sponsor-1{
   display: inline-block;
@@ -2977,6 +3085,23 @@ html.no-csstransitions .home-content__main {
   width: 12vw;
   height: 12vw;
   display: block;
+}
+@media only screen and (max-width: 950px){
+  .sponsor-heading h2:after{
+    width: 17vw;
+    margin-left: -8.7vw;
+  }
+}
+@media only screen and (max-width: 750px){
+  .sponsor-heading h2:after{
+    width: 17vw;
+  }
+}
+@media only screen and (max-width: 450px){
+  .sponsor-heading h2:after{
+    width: 30vw;
+    margin-left: -14vw;
+  }
 }
 /* ------------------------------------------------------------------- 
  * responsive:
