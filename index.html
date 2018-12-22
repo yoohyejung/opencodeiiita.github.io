@@ -22,12 +22,15 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
     <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/animate.css">
 
 
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+	<script src="js/particles.js" defer="defer"></script>
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
     <!-- favicons
     ================================================== -->
@@ -135,30 +138,36 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/bgcropped.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src=""  data-position-y=top>
 
         <!-- <div class="shadow-overlay"></div> -->
 
-        <div class="home-content">
+        <div id="particles-js" class="home-content">
+			<!-- particles.js container -->
 
-                <div class="ui grid container" style="padding-bottom: 70px;">
-                        <div class="two wide column"></div>
-                        <div class="twelve wide column" style="text-align:center" id="chotucol1">
-                            <img id="chotuimg" src="images/opencodelogo.png" alt="" style="height: 315px; width: 300px;">
-                        </div>
-                        <div class="two wide column"></div>
+<!-- stats - count particles -->
 
-                        <div class="two wide column"></div>
-                        <div class="twelve wide column" style="text-align:center; color: white; font-size: 2rem;" id="chotucol2"><p id="chotupara">
-                            presented to you by <strong>GitHub</strong> 
-                        </p></div>
-                        <div class="two wide column"></div>
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<!-- stats.js lib -->
 
-                </div>
-
+<div class="animated fadeInUp delay-2s logo">
+			<img  src="images/opencodelogo.png">
+			</div>
+			<!--
+<div class="animated fadeIn delay-3s buttons">
+	<div class="ui secondary button"><a href="">
+		<i class="github icon"></i>
+  View it on Github</a>
+</div>
+	<div class="ui facebook button"><a href="">
+  <i class="facebook icon"></i>
+  Follow on Facebook</a>
+</div>
+			</div>
                              
         </div> <!-- end home-content -->
-
+		
         <!-- <ul class="home-sidelinks">
             <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
             <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
