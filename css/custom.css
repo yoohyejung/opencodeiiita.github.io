@@ -105,3 +105,14 @@ align-items: center;
 	
 }
 
+.title{
+	font: "Lato";
+	font-size: 36px;
+	color: white;
+	padding-top: 135px;
+align-items: center;
+  display: flex;
+  justify-content: center;
+	
+}
+
