@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,900|Montserrat');
 body{
     font-size: 1.4rem;
 }
@@ -108,13 +108,18 @@ align-items: center;
 
 .title{
 	font-family: 'Lato';
-	font-size: 72px;
-	color: white;
+	height: 100px;
 	padding-top: 15px;
 align-items: center;
   display: flex;
   justify-content: center;
-	font-weight: 100;
+	font-weight: 300;
+	 
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 64px;;
+
 	
 }
 
