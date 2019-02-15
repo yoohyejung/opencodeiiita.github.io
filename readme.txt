@@ -29,7 +29,7 @@ Replace the value of mailChimpURL with your mailchimp url.
 
 SOURCES AND CREDITS:
 
-I've used the following resources as listed.
+I've used the following resources as listed below.
 
 Fonts:
  - Metropolis Font (https://www.fontsquirrel.com/fonts/metropolis)
